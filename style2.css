@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  text-align: center;
+  background-color: #f0f0f0;
+  justify-content: center;
+  flex-direction: column;
+  color: #333;
+}
+body h1 {
+  font-size: 20vw;
+  border: seagreen solid 5px;
+}
+body h2 {
+  font-size: 10vw;
+  border: seagreen solid 5px;
+}
+body h3 {
+  font-size: 50vw;
+  color: #666;
+}
+body button {
+  padding: 5vw 20vw;
+  font-size: 20vw;
+  /* หารูปยากมากๆๆๆๆๆ ตอนนี้หาไม่เจอ */ /* หาไม่เจอ เอารูปอื่นไปก่อน */ /*คิดรูปออกแต่หาไม่เจอ่า*/
+  background-image: url(https://image.cdn2.seaart.me/temp-convert-webp/highwebp/20250411/145b0286-9e90-4f54-bfe0-6c4f27274de7_low.webp);
+  /* รูป จาก เว็ป ai https://www.seaart.ai/th*/
+  background-size: cover;
+  background-position: center;
+}
